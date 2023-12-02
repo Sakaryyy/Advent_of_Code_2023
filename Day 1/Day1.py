@@ -1,5 +1,5 @@
 def main():
-    with open('Puzze_Input_Day_1') as file:
+    with open('Puzzle_Input_Day_1') as file:
         puzzle_input = file.readlines()
 
     word_to_digit = {'one': 'o1e', 'two': 't2o', 'three': 't3e', 'four': 'f4r', 'five': 'f5e', 'six': 's6x',
