@@ -36,7 +36,6 @@ def count_scratchcards(cards):
 
 
 def main():
-    """Main function to process the puzzle input and print the result."""
     with open('puzzle_input_day_4') as file:
         numbers = [parse_line(line) for line in file]
 
